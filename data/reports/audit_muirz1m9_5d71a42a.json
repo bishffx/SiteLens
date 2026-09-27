@@ -1,0 +1,41 @@
+{
+  "id": "audit_muirz1m9_5d71a42a",
+  "targetUrl": "https://example.com/page",
+  "normalizedUrl": "https://example.com/page",
+  "createdAt": "2026-09-26T19:20:56.049Z",
+  "durationMs": 100,
+  "scores": {
+    "overallScore": 85,
+    "overallGrade": "B"
+  },
+  "analysis": {
+    "analyzedUrl": "https://example.com",
+    "timestamp": "2026-09-26T19:20:56.049Z",
+    "executionTimeMs": 100,
+    "allIssues": [
+      {
+        "id": "ISS2",
+        "title": "Slow LCP",
+        "category": "performance",
+        "severity": "warning",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      },
+      {
+        "id": "ISS4",
+        "title": "New SEO issue",
+        "category": "seo",
+        "severity": "critical",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      }
+    ]
+  },
+  "meta": {
+    "appVersion": "0.1.0",
+    "userAgent": "SiteLens-Engine/1.0",
+    "environment": "development"
+  }
+}

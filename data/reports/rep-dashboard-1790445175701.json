@@ -1,0 +1,433 @@
+{
+  "id": "rep-dashboard-1790445175701",
+  "targetUrl": "https://dashboard-test.example.com",
+  "normalizedUrl": "https://dashboard-test.example.com/",
+  "createdAt": "2026-09-26T17:52:55.726Z",
+  "durationMs": 420,
+  "scores": {
+    "overallScore": 81,
+    "overallGrade": "A",
+    "categories": {
+      "seo": {
+        "category": "seo",
+        "score": 88,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "seo test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "performance": {
+        "category": "performance",
+        "score": 74,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "performance test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "accessibility": {
+        "category": "accessibility",
+        "score": 82,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "accessibility test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "content": {
+        "category": "content",
+        "score": 79,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "content test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "mobile": {
+        "category": "mobile",
+        "score": 85,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "mobile test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "ux": {
+        "category": "ux",
+        "score": 80,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "ux test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      }
+    },
+    "dimensionScores": {
+      "seo": {
+        "category": "seo",
+        "score": 88,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "seo test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "performance": {
+        "category": "performance",
+        "score": 74,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "performance test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "accessibility": {
+        "category": "accessibility",
+        "score": 82,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "accessibility test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "content": {
+        "category": "content",
+        "score": 79,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "content test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "mobile": {
+        "category": "mobile",
+        "score": 85,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "mobile test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "ux": {
+        "category": "ux",
+        "score": 80,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "ux test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "totalChecks": 66,
+      "passedChecks": 48,
+      "warningChecks": 12,
+      "failedChecks": 6,
+      "unavailableChecks": 0,
+      "totalIssues": 18,
+      "criticalIssues": 6,
+      "warningIssues": 12,
+      "infoIssues": 0
+    },
+    "weightsApplied": {
+      "seo": 0.2,
+      "performance": 0.25,
+      "accessibility": 0.2,
+      "content": 0.15,
+      "mobile": 0.1,
+      "ux": 0.1
+    },
+    "scoringMethod": "deterministic_weighted_proportional",
+    "calculatedAt": "2026-09-26T17:52:55.677Z",
+    "disclaimer": "Deterministic score calculated from DOM and network data."
+  },
+  "analysis": {
+    "analyzedUrl": "https://dashboard-test.example.com",
+    "timestamp": "2026-09-26T17:52:55.688Z",
+    "executionTimeMs": 420,
+    "allIssues": [
+      {
+        "id": "iss-1",
+        "category": "seo",
+        "severity": "critical",
+        "title": "Missing Canonical Tag",
+        "description": "No canonical link element was found in the head.",
+        "recommendation": "Add <link rel='canonical' href='https://dashboard-test.example.com' />",
+        "targetElement": "<head>",
+        "codeSnippet": "<head><title>Test</title></head>",
+        "impactScoreDeduction": 15
+      },
+      {
+        "id": "iss-2",
+        "category": "performance",
+        "severity": "warning",
+        "title": "Largest Contentful Paint Exceeds 2.5s",
+        "description": "LCP measured at 2850ms on mobile emulation.",
+        "recommendation": "Optimize and compress the hero image asset.",
+        "impactScoreDeduction": 6
+      },
+      {
+        "id": "iss-3",
+        "category": "accessibility",
+        "severity": "warning",
+        "title": "Images Missing Alt Text",
+        "description": "2 image elements missing alt attribute.",
+        "recommendation": "Provide meaningful alt attributes on all non-decorative images.",
+        "targetElement": "img.hero-graphic",
+        "codeSnippet": "<img src='/hero.png'>",
+        "impactScoreDeduction": 6
+      }
+    ]
+  },
+  "aiInterpretation": {
+    "isAvailable": true,
+    "status": "completed",
+    "provider": "ollama",
+    "model": "llama3:8b",
+    "data": {
+      "executiveSummary": "The website achieves a solid Grade A (81/100) with key action items in canonical configuration and hero image loading.",
+      "prioritizedExplanations": [
+        {
+          "id": "iss-1",
+          "category": "seo",
+          "severity": "critical",
+          "title": "Missing Canonical Tag",
+          "explanation": "Search engines may index duplicate paths.",
+          "priority": 1
+        }
+      ],
+      "businessImpactInterpretation": {
+        "technicalDebtSummary": "Minimal technical debt with standard HTML5 structure.",
+        "userExperienceImpact": "Slight latency on mobile hero render.",
+        "searchVisibilityImpact": "Indexation directives require canonical clarification.",
+        "conversionFriction": "No critical interaction barriers detected."
+      },
+      "actionableRecommendations": [
+        {
+          "id": "rec-1",
+          "category": "seo",
+          "title": "Declare self-referencing canonical",
+          "technicalGuidance": "Inject link rel=canonical in head",
+          "priority": "high"
+        }
+      ],
+      "quickWins": [
+        {
+          "title": "Add alt tags to hero image",
+          "impact": "Resolves accessibility violation",
+          "effort": "quick-fix",
+          "guidance": "Specify alt='Product Hero'"
+        }
+      ],
+      "mediumTermImprovements": [
+        {
+          "title": "Compress hero image with WebP",
+          "impact": "Reduces LCP by ~300ms",
+          "effort": "moderate",
+          "guidance": "Convert PNG to WebP with next/image"
+        }
+      ],
+      "longerTermImprovements": [],
+      "growthRoadmap30Day": {
+        "phase1Days1To7": [
+          {
+            "dayRange": "Days 1–3",
+            "task": "Configure canonical tags",
+            "targetDimension": "seo"
+          }
+        ],
+        "phase2Days8To14": [],
+        "phase3Days15To21": [],
+        "phase4Days22To30": []
+      }
+    },
+    "generatedAt": "2026-09-26T17:52:55.725Z",
+    "executionDurationMs": 85
+  },
+  "meta": {
+    "appVersion": "0.1.0",
+    "userAgent": "SiteLens-Engine/1.0",
+    "environment": "development"
+  }
+}

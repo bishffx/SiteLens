@@ -1,0 +1,183 @@
+{
+  "id": "audit_muirzjbk_a40baee0",
+  "targetUrl": "https://example.com/page",
+  "normalizedUrl": "https://example.com/page",
+  "createdAt": "2026-09-26T19:21:18.992Z",
+  "durationMs": 100,
+  "scores": {
+    "overallScore": 78,
+    "overallGrade": "C",
+    "categories": {
+      "seo": {
+        "category": "seo",
+        "score": 85,
+        "grade": "A",
+        "passedChecks": 5,
+        "warningChecks": 1,
+        "failedChecks": 0,
+        "unavailableChecks": 0,
+        "totalChecks": 6,
+        "evaluableChecks": 6,
+        "totalIssues": 1,
+        "criticalIssues": 0,
+        "warningIssues": 1,
+        "infoIssues": 0,
+        "weight": 1,
+        "isAvailable": true,
+        "deductions": []
+      },
+      "performance": {
+        "category": "performance",
+        "score": 75,
+        "grade": "B",
+        "passedChecks": 4,
+        "warningChecks": 2,
+        "failedChecks": 0,
+        "unavailableChecks": 0,
+        "totalChecks": 6,
+        "evaluableChecks": 6,
+        "totalIssues": 2,
+        "criticalIssues": 0,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 1,
+        "isAvailable": true,
+        "deductions": []
+      },
+      "accessibility": {
+        "category": "accessibility",
+        "score": 90,
+        "grade": "A",
+        "passedChecks": 6,
+        "warningChecks": 0,
+        "failedChecks": 0,
+        "unavailableChecks": 0,
+        "totalChecks": 6,
+        "evaluableChecks": 6,
+        "totalIssues": 0,
+        "criticalIssues": 0,
+        "warningIssues": 0,
+        "infoIssues": 0,
+        "weight": 1,
+        "isAvailable": true,
+        "deductions": []
+      },
+      "content": {
+        "category": "content",
+        "score": 70,
+        "grade": "C",
+        "passedChecks": 3,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 6,
+        "evaluableChecks": 6,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 1,
+        "isAvailable": true,
+        "deductions": []
+      },
+      "mobile": {
+        "category": "mobile",
+        "score": 78,
+        "grade": "B",
+        "passedChecks": 5,
+        "warningChecks": 1,
+        "failedChecks": 0,
+        "unavailableChecks": 0,
+        "totalChecks": 6,
+        "evaluableChecks": 6,
+        "totalIssues": 1,
+        "criticalIssues": 0,
+        "warningIssues": 1,
+        "infoIssues": 0,
+        "weight": 1,
+        "isAvailable": true,
+        "deductions": []
+      },
+      "ux": {
+        "category": "ux",
+        "score": 82,
+        "grade": "B",
+        "passedChecks": 4,
+        "warningChecks": 1,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 6,
+        "evaluableChecks": 6,
+        "totalIssues": 2,
+        "criticalIssues": 0,
+        "warningIssues": 1,
+        "infoIssues": 1,
+        "weight": 1,
+        "isAvailable": true,
+        "deductions": []
+      }
+    },
+    "dimensionScores": {},
+    "summary": {
+      "totalChecks": 36,
+      "passedChecks": 27,
+      "warningChecks": 5,
+      "failedChecks": 2,
+      "unavailableChecks": 0,
+      "totalIssues": 7,
+      "criticalIssues": 1,
+      "warningIssues": 5,
+      "infoIssues": 1
+    },
+    "weightsApplied": {
+      "seo": 1,
+      "performance": 1,
+      "accessibility": 1,
+      "content": 1,
+      "mobile": 1,
+      "ux": 1
+    },
+    "scoringMethod": "deterministic_weighted_proportional",
+    "calculatedAt": "2026-09-26T19:21:18.991Z",
+    "disclaimer": ""
+  },
+  "analysis": {
+    "analyzedUrl": "https://example.com",
+    "timestamp": "2026-09-26T19:21:18.992Z",
+    "executionTimeMs": 100,
+    "allIssues": [
+      {
+        "id": "ISS1",
+        "title": "Missing alt",
+        "category": "seo",
+        "severity": "warning",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      },
+      {
+        "id": "ISS2",
+        "title": "Slow LCP",
+        "category": "performance",
+        "severity": "warning",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      },
+      {
+        "id": "ISS3",
+        "title": "Low contrast",
+        "category": "accessibility",
+        "severity": "critical",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      }
+    ]
+  },
+  "meta": {
+    "appVersion": "0.1.0",
+    "userAgent": "SiteLens-Engine/1.0",
+    "environment": "development"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "id": "rep-unav-1790445085733",
+  "targetUrl": "https://no-ai.example.com",
+  "normalizedUrl": "https://no-ai.example.com/",
+  "createdAt": "2026-09-26T17:51:25.733Z",
+  "durationMs": 310,
+  "scores": {
+    "overallScore": 81,
+    "overallGrade": "A",
+    "categories": {
+      "seo": {
+        "category": "seo",
+        "score": 88,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "seo test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "performance": {
+        "category": "performance",
+        "score": 74,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "performance test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "accessibility": {
+        "category": "accessibility",
+        "score": 82,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "accessibility test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "content": {
+        "category": "content",
+        "score": 79,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "content test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "mobile": {
+        "category": "mobile",
+        "score": 85,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "mobile test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "ux": {
+        "category": "ux",
+        "score": 80,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "ux test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      }
+    },
+    "dimensionScores": {
+      "seo": {
+        "category": "seo",
+        "score": 88,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "seo test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "performance": {
+        "category": "performance",
+        "score": 74,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "performance test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "accessibility": {
+        "category": "accessibility",
+        "score": 82,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "accessibility test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "content": {
+        "category": "content",
+        "score": 79,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "content test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "mobile": {
+        "category": "mobile",
+        "score": 85,
+        "grade": "A",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "mobile test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      },
+      "ux": {
+        "category": "ux",
+        "score": 80,
+        "grade": "B",
+        "passedChecks": 8,
+        "warningChecks": 2,
+        "failedChecks": 1,
+        "unavailableChecks": 0,
+        "totalChecks": 11,
+        "evaluableChecks": 11,
+        "totalIssues": 3,
+        "criticalIssues": 1,
+        "warningIssues": 2,
+        "infoIssues": 0,
+        "weight": 0.166,
+        "isAvailable": true,
+        "deductions": [
+          {
+            "reason": "ux test deduction",
+            "points": 6,
+            "severity": "warning"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "totalChecks": 66,
+      "passedChecks": 48,
+      "warningChecks": 12,
+      "failedChecks": 6,
+      "unavailableChecks": 0,
+      "totalIssues": 18,
+      "criticalIssues": 6,
+      "warningIssues": 12,
+      "infoIssues": 0
+    },
+    "weightsApplied": {
+      "seo": 0.2,
+      "performance": 0.25,
+      "accessibility": 0.2,
+      "content": 0.15,
+      "mobile": 0.1,
+      "ux": 0.1
+    },
+    "scoringMethod": "deterministic_weighted_proportional",
+    "calculatedAt": "2026-09-26T17:51:25.416Z",
+    "disclaimer": "Deterministic score calculated from DOM and network data."
+  },
+  "analysis": {
+    "analyzedUrl": "https://dashboard-test.example.com",
+    "timestamp": "2026-09-26T17:51:25.418Z",
+    "executionTimeMs": 420,
+    "allIssues": [
+      {
+        "id": "iss-1",
+        "category": "seo",
+        "severity": "critical",
+        "title": "Missing Canonical Tag",
+        "description": "No canonical link element was found in the head.",
+        "recommendation": "Add <link rel='canonical' href='https://dashboard-test.example.com' />",
+        "targetElement": "<head>",
+        "codeSnippet": "<head><title>Test</title></head>",
+        "impactScoreDeduction": 15
+      },
+      {
+        "id": "iss-2",
+        "category": "performance",
+        "severity": "warning",
+        "title": "Largest Contentful Paint Exceeds 2.5s",
+        "description": "LCP measured at 2850ms on mobile emulation.",
+        "recommendation": "Optimize and compress the hero image asset.",
+        "impactScoreDeduction": 6
+      },
+      {
+        "id": "iss-3",
+        "category": "accessibility",
+        "severity": "warning",
+        "title": "Images Missing Alt Text",
+        "description": "2 image elements missing alt attribute.",
+        "recommendation": "Provide meaningful alt attributes on all non-decorative images.",
+        "targetElement": "img.hero-graphic",
+        "codeSnippet": "<img src='/hero.png'>",
+        "impactScoreDeduction": 6
+      }
+    ]
+  },
+  "aiInterpretation": {
+    "isAvailable": false,
+    "status": "unavailable",
+    "provider": "ollama",
+    "model": "llama3:8b",
+    "unavailableReason": "Local Ollama daemon is offline.",
+    "generatedAt": "2026-09-26T17:51:25.733Z",
+    "executionDurationMs": 0
+  },
+  "meta": {
+    "appVersion": "0.1.0",
+    "userAgent": "SiteLens-Engine/1.0",
+    "environment": "development"
+  }
+}

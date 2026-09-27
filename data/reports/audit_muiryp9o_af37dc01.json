@@ -1,0 +1,50 @@
+{
+  "id": "audit_muiryp9o_af37dc01",
+  "targetUrl": "https://example.com/page",
+  "normalizedUrl": "https://example.com/page",
+  "createdAt": "2026-09-26T19:20:40.045Z",
+  "durationMs": 100,
+  "scores": {
+    "overallScore": 78,
+    "overallGrade": "C"
+  },
+  "analysis": {
+    "analyzedUrl": "https://example.com",
+    "timestamp": "2026-09-26T19:20:40.044Z",
+    "executionTimeMs": 100,
+    "allIssues": [
+      {
+        "id": "ISS1",
+        "title": "Missing alt",
+        "category": "seo",
+        "severity": "warning",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      },
+      {
+        "id": "ISS2",
+        "title": "Slow LCP",
+        "category": "performance",
+        "severity": "warning",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      },
+      {
+        "id": "ISS3",
+        "title": "Low contrast",
+        "category": "accessibility",
+        "severity": "critical",
+        "description": "",
+        "recommendation": "",
+        "impactScoreDeduction": 0
+      }
+    ]
+  },
+  "meta": {
+    "appVersion": "0.1.0",
+    "userAgent": "SiteLens-Engine/1.0",
+    "environment": "development"
+  }
+}
